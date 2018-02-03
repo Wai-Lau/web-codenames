@@ -43,6 +43,7 @@ def create_spymaster_and_join(room, color):
 def play(room, color, name):
     color = color.lower()
     if room in sessions:
+        sessions[room][color]['players'] += 1
         return render_template("main.html", message="Welcome to {} team's room, {}.".format(color, name))
     return render_template("main.html", message="ERROR FEELIN LIMIC")
 
