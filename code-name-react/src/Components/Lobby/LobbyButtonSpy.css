@@ -1,0 +1,71 @@
+.ThinButton{
+  border-radius: 8px;
+  min-height: 120px;
+  max-width: 80%;
+  overflow:hidden;
+  margin-bottom: 10px;
+  background-size: 100px;
+  background-position: "center";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.SquareButton{
+  border-radius: 8px;
+  min-height: 120px;
+  padding-bottom: 80%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  overflow: hidden;
+  background-position: "center";
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+#spy1{
+  background-image: url('spy1.jpg');
+  background-color: rgba(0,0,100, 0.75);
+  transition: all .3s linear;
+}
+
+#spy1:hover{
+  background-color: rgba(0,0,255, 1);
+  transition: all .3s linear;
+}
+
+#spy2{
+  background-image: url('spy2.jpg');
+  background-color: rgba(100,0,0, 0.75);
+  transition: all .3s linear;
+}
+
+#spy2:hover{
+  background-color: rgba(255,0,0, 1);
+  transition: all .3s linear;
+}
+
+#spymaster1{
+  background-image: url('spymaster1.jpg');
+  background-size: 155%;
+  background-color: rgba(0,0,100, 0.75);
+  transition: all .3s linear;
+}
+
+#spymaster1:hover{
+  background-color: rgba(0,0,255, 1);
+  transition: all .3s linear;
+}
+
+#spymaster2{
+  background-image: url('spymaster2.jpg');
+  background-size: 100%;
+  background-color: rgba(100,0,0, 0.75);
+  transition: all .3s linear;
+}
+
+#spymaster2:hover{
+  background-color: rgba(255,0,0, 1);
+  transition: all .3s linear;
+}
