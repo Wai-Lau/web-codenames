@@ -1,18 +1,18 @@
 .ThinButton{
-  border-radius: 8px;
+  border-radius: 0px 0px 50px 0px;
   min-height: 120px;
   max-width: 80%;
-  overflow:hidden;
+  overflow: hidden;
   margin-bottom: 10px;
   background-size: 100px;
-  background-position: "center";
-  background-size: 100%;
+  background-position:center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
 }
 
 .SquareButton{
-  border-radius: 8px;
+  border-radius: 50px 0px 0px 0px;
   min-height: 120px;
   padding-bottom: 80%;
   margin-top: 20px;
@@ -48,7 +48,7 @@
 
 #spymaster1{
   background-image: url('spymaster1.jpg');
-  background-size: 155%;
+  background-size: 100%;
   background-color: rgba(0,0,100, 0.75);
   transition: all .3s linear;
 }
@@ -68,4 +68,8 @@
 #spymaster2:hover{
   background-color: rgba(255,0,0, 1);
   transition: all .3s linear;
+}
+
+.size-capped{
+  max-width: 400px;
 }
